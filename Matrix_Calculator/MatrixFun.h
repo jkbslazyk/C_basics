@@ -9,5 +9,5 @@ double determinant( double** pTab, int nSize );
 void printMatrix( double** pTab, int nSize );
 void layoutEquation( double** pInv, double* pB, double* pRes, int nSize );
 
-#endif 
+#endif
 
