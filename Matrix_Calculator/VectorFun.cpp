@@ -21,4 +21,4 @@ void printVec( double* vec, int nDim ) {
 void deleteVec( double** vec, int nDim ) {
 	free( *vec );
 	*vec = NULL;
-}
+} 
