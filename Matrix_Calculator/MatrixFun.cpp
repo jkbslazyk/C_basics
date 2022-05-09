@@ -131,7 +131,7 @@ void ComplMatrix( double** pTabO, double** pTabI, int nDim )
 
 void complement( double** pTabO, double** pTabT, int nRow, int nCol, int nDim ) {
 
-	for ( int i = 0; i < nDim; i++) {
+	for ( int i = 0; i < nDim; i++){
 
 		double* pT = *pTabT++;
 		if ( i == nRow )
