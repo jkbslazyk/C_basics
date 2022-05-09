@@ -71,7 +71,6 @@ int main(){
 	RemoveList( &LastProject, freeInfo );
 
 	return 0;
-
 }
 
 void PrintList( ListItem* pList ) {
@@ -92,7 +91,6 @@ void PrintList( ListItem* pList ) {
 void freeInfo( const void* RandomName ) {
 
 	free( (LISTINFO*)RandomName );
-
 }
 
 int compareInfo( const void* Random1, const void* Random2 ) {
